@@ -10,8 +10,8 @@
     margin-top: 50px;
     
 }
-.navigations {
-    font-size: 20px;
+.nav.navbar-nav.navbar-right li a {
+    color: green;
 }
 .container {
     background-color: peachpuff;
