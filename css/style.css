@@ -2,7 +2,7 @@
 
 #logo {
     color: #960B40;
-    font-family: 'Damion', "Roboto", sans-serif;
+    font-family: 'Sofia', "Roboto", sans-serif;
     font-size: 60px;
     margin-top: 40px;
 }
@@ -21,5 +21,6 @@
 
 body {
       /* background-color: peachpuff;   */
-
+    background-image: url(../99.jpg);
+    background-size: cover;
 }
