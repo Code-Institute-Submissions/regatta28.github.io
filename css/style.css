@@ -1,0 +1,24 @@
+/* NAVIGATION */
+
+#logo {
+    color: #960B40;
+    font-family: 'Damion', "Roboto", sans-serif;
+    font-size: 60px;
+    margin-top: 40px;
+}
+#navigation {
+    margin-top: 50px;
+    
+}
+.navigations {
+    font-size: 20px;
+}
+.container {
+    background-color: peachpuff;
+}
+
+/* BODY */
+
+body {
+    background-color: peachpuff;
+}
