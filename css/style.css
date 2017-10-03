@@ -12,8 +12,8 @@
 }
 .nav.navbar-nav.navbar-right li a {
     color: black;
-    font-size: 15px;
-    
+    font-size: 12px;
+    font-family: 'Archivo Black', sans-serif;
 }
 .container img {
     /* background-color: peachpuff; */
@@ -29,7 +29,8 @@ body {
 }
 
 .carousel {
-  margin-top: 50px;
-  width: 100%;
+  /* margin-top: 50px; */
+  width: 90%;
   height: 160px;
+  margin: 50px auto;
 } 
