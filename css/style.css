@@ -28,7 +28,7 @@
 body {
       /* background-color: peachpuff;   */
     margin-bottom: 60px;
-    
+    background-image: url(../99.jpg);
 }
 
 .carousel {
@@ -58,4 +58,15 @@ html {
     height: 60px;
     margin-bottom: 0;
     background-color: white;
+    background-image: url(../99.jpg);
+}
+
+#facebook {
+    float: right;
+}
+#phone {
+    float: clear;
+    color: white;
+    font-size: 12px;
+    font-family: 'Archivo Black', sans-serif;
 }
