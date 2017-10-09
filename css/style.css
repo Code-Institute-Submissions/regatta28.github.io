@@ -10,7 +10,7 @@
      
 }
 #navigation {
-     margin-top: 50px;
+     margin-top: 60px;
      position: fixed;
      width: 100%;
     
@@ -46,7 +46,8 @@ nav {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			margin-top: 230px;
+            margin-top: 180px;
+            
 			
         }
 
@@ -173,7 +174,7 @@ nav{
 				height: 50px;
 				width: 100%;
                 position: fixed;
-                right: 200px;
+                /* right: 200px; */
                 align-items: stretch;
               
 			}
@@ -240,8 +241,10 @@ nav{
 }  */
 #logo {
     position: fixed;
-    right: 100px;
+    /* right: 50px; */
     width: 100%;
+    
+
 
 }
 
@@ -252,8 +255,10 @@ nav{
     top: 50px; */
     width: 100%;
     position: fixed;
-    left: 250px;
-    bottom: 350px;
+    /* left: 250px;
+    bottom: 350px; */
+    justify-content: space-around;
+    padding-top: 20px;
     
 }
 .navbar-brand {
