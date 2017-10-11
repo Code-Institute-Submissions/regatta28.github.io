@@ -130,15 +130,21 @@ body {
     top: 470px;
     
 }  */
+#foot {
+    width: 100%;
+}
+
 
 #facebook {
-    float: right;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
     
     
     
 }
 #phone {
-    float: clear;
+    float: left;
     color: white;
     font-size: 12px;
     font-family: 'Archivo Black', sans-serif;
@@ -149,7 +155,7 @@ body {
     
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 470px){
 
     #logo {
     color: #960B40;
@@ -162,12 +168,18 @@ body {
 }
 .nav.navbar-nav.navbar-right li a {
     color: white;
-    font-size: 12px;
+    font-size: 1Opx;
     font-family: 'Archivo Black', sans-serif;
     text-decoration: none;
     margin: auto;
     display: block;
     
+    
+}
+.wrapper {
+    margin-top: 20px;
+}
+img {
     
 }
 }
@@ -220,7 +232,7 @@ nav{
 }
 
 .wrapper {
-    margin-top: 100px;
+    margin-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -270,6 +282,7 @@ nav{
     width: 100%;
     text-align: center;
 }
+
 
 
 }
