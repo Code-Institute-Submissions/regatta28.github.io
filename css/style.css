@@ -1,15 +1,15 @@
 /* NAVIGATION */
  
-  .wrapper
+   .wrapper
         {
         position:absolute;
-        top: 100px;
+        top: 200px;
         left:0px;
         right:0px;
         bottom:0px;
         overflow-y:scroll; 
-        height: 500px;       
-        } 
+             
+        }  
 
 #logo {
       color: #960B40;
@@ -27,9 +27,7 @@
      
     
 }
-    .item {
-        
-    }
+
 
 nav {
     margin: 30px auto; 
@@ -41,36 +39,19 @@ nav {
 			border-radius: 10px; 
 			padding: 0;
 }
-
-	a{
-			text-decoration: none;
-			color: white;
-			flex:.5;
-			height: 30px;
-			font-family: Dosis;
-			padding:10px;
-			text-align: center;
-			font-size: 2em;
-			/* border-bottom:1px solid white; */
-
-        }
-
-    img {
-        height: 20px;
-    }
-#myCarousel {
-			font-family: Dosis;
-			font-size: 1em;
-			color: black;
-			text-align: center;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-             margin-top: 100px;  
-            margin-bottom: 0;
+        a {
+            text-align: center;
             
 			
+
+        
         }
+
+
+    img {
+        
+    }
+
 
 
         
@@ -101,6 +82,13 @@ img {
     /* border: 10px solid burlywood;
     border-radius: 10px; */
     
+    width: 80%
+    
+}
+
+.wrapper {
+   
+    margin-left: 50px;
 }
 
 /* BODY */
@@ -112,12 +100,7 @@ body {
     
 }
 
-.carousel {
-  /* margin-top: 50px; */
-  width: 100%;
-  
-  margin: 50px auto;
-} 
+ 
 
 #wrapper {
     position: relative;
@@ -134,11 +117,11 @@ body {
 .container {
     /* height: 100px; */
 }
-
-/* FOOTER */
+/* 
+ FOOTER 
 
 #footer {
-    /* position: fixed; */
+     position: fixed; 
     width: 100%;
     height: 50px;
     margin-bottom: 0;
@@ -146,13 +129,12 @@ body {
     position: fixed;
     top: 470px;
     
-}
+}  */
 
 #facebook {
     float: right;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
+    
+    
     
 }
 #phone {
@@ -162,9 +144,7 @@ body {
     font-family: 'Archivo Black', sans-serif;
     /* margin-top: 10px; */
     margin-left: 10px;
-    position: fixed;
-    left: 5px;
-    bottom: 20px;
+    
     
     
 }
@@ -238,20 +218,18 @@ nav{
    
     
 }
-.carousel {
-  /* margin-top: 50px; */
-  width: 100%;
-  height: 100px;
-  margin: 50px auto;
-  
-} 
 
-#myCarousel {
-    margin-top: 50px;
-    
-}
 .wrapper {
     margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.item {
+    width: 30%;
+
 }
 
 .container {
