@@ -130,6 +130,53 @@
             #thirteen {
                 color: indigo;
             }
+            @media screen and (min-width: 500px) {
+                #container {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+                #image {
+                    width: 40%;
+                }
+                #paragraph {
+                    width: 40%;
+                }
+
+            }
+            @media screen and (min-width: 720px) {
+                #image {
+                    width: 30%;
+
+                }
+                #paragraph {
+                    width: 30%;
+                }
+                #list {
+                    width: 30%;
+                }
+                #logo {
+                    font-size: 70px;
+                    text-align: left;
+                    width: 45%;
+                    margin-left: 0;
+                    position: fixed;
+                    left: 5px;
+                    padding: 2px;
+                }
+                 .navigations {
+                    font-size: 15px;
+                    
+
+                }
+                 .nav {
+                    position: fixed;
+                    bottom: 500px;
+                    right: 5px;
+                    width: 50%;
+                    
+                }
+            }
         </style>
     </head>
     <body>
@@ -148,11 +195,11 @@
             </div>
         </nav>
         <div id="container">
-            <div>
+            <div id="image" class="col-md-6">
                 <img src="profilePic.jpg" alt="Profile picture of Fern and Gale Carreyette">
             </div>
            
-            <div>
+            <div id="paragraph" class="col-md-6">
                 <p>Hi, we are two sisters, Gale and Fern Carreyette, who live in Galway city we love to bake lots of things from celebration cakes to tasty treats and desserts.
 
     We have so much fun trying lots of new and old recipes that all taste so yummy especially our Grandmother's old recipes that have been passed down to us as they are reminders of all the delicious dishes we loved growing up. 
@@ -165,7 +212,7 @@
 
     We really enjoy catering for parties especially themed parties!</p>
             </div>
-             <div>
+             <div id="list">
                 <p><em>Products</em>
             <ul>
                 <li id="one"> Party Cakes & Treats</li>
