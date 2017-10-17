@@ -131,6 +131,10 @@ body {
     top: 470px;
     
 }  */
+#footer {
+    width: 100%;
+    align-content: center;
+}
 #foot {
     width: 100%;
 }
@@ -138,8 +142,9 @@ body {
 
  #facebook {
     position: absolute;
-    right: 5px;
-    bottom: 5px;
+    left: 60px;
+    margin-top: 10px;
+    
     
     
     
@@ -154,6 +159,13 @@ body {
     
     
     
+}
+@media screen and (min-width: 430px) {
+    /* #facebook {
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+    } */
 }
 
 
