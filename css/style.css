@@ -55,14 +55,6 @@ nav {
         
         }
 
-
-    img {
-        
-    }
-
-
-
-        
 #logo{
             margin-top: 0;
 			
@@ -144,14 +136,14 @@ body {
 }
 
 
-#facebook {
-    position: fixed;
+ #facebook {
+    position: absolute;
     right: 5px;
     bottom: 5px;
     
     
     
-}
+} 
 #phone {
     float: left;
     color: gray;
