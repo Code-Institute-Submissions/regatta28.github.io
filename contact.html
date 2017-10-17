@@ -30,9 +30,10 @@
                 
      
             }
+      
              .nav.navbar-nav.navbar-right li a {
                 color: grey;
-                font-size: 12px;
+                font-size: 10px;
                 font-family: 'Archivo Black', sans-serif;
                 /* text-decoration: underline; */
                 margin: auto;
@@ -85,7 +86,20 @@
             width: 100px;
             float: left;
          }
- 
+        .underline {
+                text-decoration: underline;
+            }
+        .wrapper
+                    {
+                        position:absolute;
+                        top: 100px;
+                        left:0px;
+                        right:0px;
+                        bottom:0px;
+                        overflow-y:scroll;        
+                    }
+        
+        
          
 
             @media screen and (max-width: 768px) {
@@ -150,11 +164,12 @@
                 width: 350px;
                 margin: auto;
             }
+         
         }
             @media screen and (min-width: 660px){
-
                 
                 
+            }
 
             #logo {
                     font-size: 60px;
@@ -195,6 +210,7 @@
             .navigations {
                 margin-top: 10px;
             }
+            
               form {
             width: 300px;
             border: 1px solid #999;
@@ -252,9 +268,9 @@
                 <label for="email" class="field">Email:<span class="asterix">*</span></label>
                 <input id="email" autocomplete="on" type="email" name="email" required="" autofocus placeholder="Enter your email"/>
                 <label for="telephone" class="field">Telephone:<span class="asterix">*</span></label>
-                <input id="telephone" type="tel" name="telephone" pattern="[0-9]{10}" title="Number must be 10 digits long" placeholder="08* *** ****"/>
+                <input id="telephone" type="tel" name="telephone" placeholder="08* *** ****"/>
                 <label for="submit" class="field"></label>
-                <input id="submit" type="submit" value="Submit"/>
+                <input id="submit" type="submit" value="Submit" onclick="showAlert();"/>
             </form>
         </div>
         </div>
