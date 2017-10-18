@@ -1,8 +1,8 @@
-describe ("a Suite", function(){
+describe ("form alert", function(){
 
      it("should have called the alert function if submit button is clicked", function(){
-            spyOn(window, "alert");
             
-            expect(window.alert).toHaveBeenCalledWith("message");
+            
+            expect(showAlert().onclick).toBe(true);
         });
 });
