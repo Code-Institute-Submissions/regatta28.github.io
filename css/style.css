@@ -8,22 +8,13 @@
 
 /* NAVIGATION */
  
-   .wrapper
-        {
-        position:absolute;
-        top: 200px;
-        left:0px;
-        right:0px;
-        bottom:0px;
-        overflow-y:scroll; 
-             
-        }  
+  
 
 #logo {
       color: #960B40;
       font-family: 'Sofia', "Roboto", sans-serif;
       font-size: 20px;
-     /* margin-top: 40px;  */
+     
       position: fixed;
       width: 100%;
      
@@ -66,21 +57,34 @@ nav {
     color: gray;
     font-size: 10px;
     font-family: 'Archivo Black', sans-serif;
-    /* text-decoration: underline; */
+    
     margin: auto;
     height: 20%;
     padding: 5px;
 }
+
+/**CONTAINER**/
+
+  .wrapper
+        {
+        position:absolute;
+        top: 200px;
+        left:0px;
+        right:0px;
+        bottom:0px;
+        overflow-y:scroll; 
+             
+        } 
+
+
 .container img {
-    /* background-color: peachpuff; */
+    
     display: none;
     
    
 }
 
 img {
-    /* border: 10px solid burlywood;
-    border-radius: 10px; */
     
     width: 80%
     
@@ -94,10 +98,9 @@ img {
 /* BODY */
 
 body {
-      /* background-color: peachpuff;   */
+      
     margin-bottom: 60px;
-    /* background-image: url(../99.jpg); */
-    
+   
 }
 
 
@@ -110,27 +113,8 @@ body {
     margin: 0 auto -60px;
     padding: 0 0 60px;
 }
- 
-/* html {
-    position: fixed;
-    min-height: 100%;
-}  */
-.container {
-    /* height: 100px; */
-}
-/* 
- FOOTER 
 
-#footer {
-     position: fixed; 
-    width: 100%;
-    height: 50px;
-    margin-bottom: 0;
-    background-color: gray;
-    position: fixed;
-    top: 470px;
-    
-}  */
+
 #footer {
     width: 100%;
     align-content: center;
@@ -154,22 +138,17 @@ body {
     color: gray;
     font-size: 12px;
     font-family: 'Archivo Black', sans-serif;
-    /* margin-top: 10px; */
+    
     margin-left: 10px;
     
-    
-    
 }
-@media screen and (min-width: 430px) {
-    /* #facebook {
-        position: absolute;
-        right: 5px;
-        bottom: 5px;
-    } */
-}
+
 
 
 @media screen and (min-width: 470px){
+
+/***NAVIGATION**/
+
 
     #logo {
 
@@ -189,6 +168,10 @@ body {
     
     
 }
+
+/**CONTAINER**/
+
+
 .wrapper {
     margin-top: 20px;
 }
@@ -197,13 +180,17 @@ body {
 
 @media screen and (min-width: 657px) {
 
+
+/****NAVIGATION***/
+
+
 nav{
 				display: flex;
 				flex-direction: row;
 				height: 50px;
 				width: 100%;
                 position: fixed;
-                /* right: 200px; */
+               
                 align-items: stretch;
               
 			}
@@ -229,17 +216,42 @@ nav{
     font-size: 12px;
     
     text-decoration: none;
-    /* margin: auto; */
-    /* margin-top: 50px; */
+    
     display: flex;
     flex-direction: row;
   
     flex: .5;
     
-    
+}
+#logo {
+    position: fixed;
    
+    width: 100%;
+    
+
+
+}
+
+#navigation {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    position: fixed;
+    
+    justify-content: space-around;
+    padding-top: 20px;
     
 }
+
+.navbar-brand {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+/****CONTAINER****/
+
 
 .wrapper {
     margin-top: 25px;
@@ -255,44 +267,11 @@ nav{
 }
 
 .container {
-    /* position: relative; */
+    
     height: 140px;
     position: fixed;
     
-    /* right: 150px; */
-}
- /* .navigations {
-    bottom: 100px;
-    right: 200px;
-}  */
-#logo {
-    position: fixed;
-    /* right: 50px; */
-    width: 100%;
-    
-
-
-}
-
-#navigation {
-    display: flex;
-    flex-direction: row;
-    /* left: 400px;
-    top: 50px; */
-    width: 100%;
-    position: fixed;
-    /* left: 250px;
-    bottom: 350px; */
-    justify-content: space-around;
-    padding-top: 20px;
-    
-}
-.navbar-brand {
-    position: fixed;
-    width: 100%;
-    text-align: center;
-}
-
+    }
 
 
 }
