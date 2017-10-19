@@ -1,6 +1,6 @@
-function showAlert() {
-  var alerted = function showAlert()
-  if (alerted = true) {
-    return alerted;
+function showAlert(info) {
+   var alerted = info
+  if (alerted.isCalled) {
+    return true;
   }
 }

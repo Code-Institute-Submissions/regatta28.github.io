@@ -3,6 +3,6 @@ describe ("form alert", function(){
      it("should have called the alert function if submit button is clicked", function(){
             
             
-            expect(showAlert().onclick).toBe(true);
+            expect(alerted).toBe(true);
         });
 });
