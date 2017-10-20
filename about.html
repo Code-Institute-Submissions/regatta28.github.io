@@ -16,13 +16,34 @@
             
             /***NAVIGATION***/
 
+            nav{
+			font-family: roboto;
+			
+			margin: 30px auto; 
+			width: 100%;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px; 
+			padding: 0;	
+		    }
+
             #logo {
                 color: #960B40;
                 font-family: 'Sofia', "Roboto", sans-serif;
-                
-                
-     
+                font-size: 2em;
+	            font-weight: bold;
             }
+            a{
+			text-decoration: none;
+			flex:.5;
+			height: 30px;
+			padding:10px;
+			text-align: center;
+			font-size: 1.2em;
+			
+	        }
             
 
 
@@ -55,7 +76,7 @@
             #container
                     {
                         position:absolute;
-                        top: 100px;
+                        top: 170px;
                         left:0px;
                         right:0px;
                         bottom:0px;
@@ -132,6 +153,27 @@
                 }
 
             }
+
+            @media screen and (min-width: 660px) {
+
+            nav{
+				display: flex;
+				flex-direction: row;
+				height: 80px;
+				
+				
+            }
+            #logo{
+				flex: 2;
+				text-align: left;
+				font-size: 2.5em;
+				margin-left: 10px;
+				
+			}
+
+            }
+
+
             @media screen and (min-width: 720px) {
 
                 /***NAVIGATION***/

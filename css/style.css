@@ -8,14 +8,35 @@
 
 /* NAVIGATION */
  
-  
+  	nav{
+			font-family: roboto;
+			
+			margin: 30px auto; 
+			width: 100%;
+			height: 200px;
+			display: flex;
+			flex-direction: column;
+			align-items:stretch;
+			border-radius: 10px; 
+			padding: 0;	
+		}
 
 #logo {
       color: #960B40;
       font-family: 'Sofia', "Roboto", sans-serif;
-      
+      font-size: 2em;
+	  font-weight: bold;
      
 }
+    a{
+			text-decoration: none;
+			flex:.5;
+			height: 30px;
+			padding:10px;
+			text-align: center;
+			font-size: 1.2em;
+			
+	}
 
 
 /**CONTAINER**/
@@ -116,6 +137,26 @@ body {
 
 /****CONTAINER****/
 @media screen and (min-width: 660px){
+
+
+/***NAVIGATION***/
+
+nav{
+				display: flex;
+				flex-direction: row;
+				height: 80px;
+				
+				
+            }
+#logo{
+				flex: 2;
+				text-align: left;
+				font-size: 2.5em;
+				margin-left: 10px;
+				
+			}
+
+/***BODY***/
 
 .wrapper {
     margin-top: 25px;
