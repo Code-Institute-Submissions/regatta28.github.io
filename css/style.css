@@ -26,7 +26,7 @@
       font-family: 'Sofia', "Roboto", sans-serif;
       font-size: 2em;
 	  font-weight: bold;
-     
+      width: 100%;
 }
     a{
 			text-decoration: none;
@@ -150,8 +150,8 @@ nav{
             }
 #logo{
 				flex: 2;
-				text-align: left;
-				font-size: 2.5em;
+				/* text-align: left; */
+				font-size: 2em;
 				margin-left: 10px;
 				
 			}
@@ -171,12 +171,12 @@ nav{
 
 }
 
-.container {
+/* .container {
     
     height: 140px;
     position: fixed;
     
-    }
+    } */
 
 
 }
