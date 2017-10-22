@@ -6,7 +6,7 @@ This is my first project studying software development with Code Institute. I ha
 
 ## Features
 
-Each page has links to the other pages from the navigation bar. There is a bio page which gives information on the business and the products they make. I have added a short form on the contact page for requesting a callback.(I have a strong preference for short forms). There is also a portfolio for viewing the creations and products of the business. I will be spending further time with the images and product display on the website.
+Each page has links to the other pages from the navigation bar. There is a bio page which gives information on the business and the products they make. I have added a short form on the contact page for requesting a callback (I have a strong preference for short forms). There is also a portfolio for viewing the creations and products of the business. I will be spending further time with the images and product display on the website.
 
 ## Tech Used
 
