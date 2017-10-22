@@ -1,1 +1,1 @@
-# Code Insitute - Project One - Rebecca Stevens
+# Code Institute - Project One - Rebecca Stevens
