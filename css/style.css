@@ -5,23 +5,23 @@ body {
      padding-top: 70px;
      }
 .welcomeDiv {
-                display: flex;
-                margin-top: 30px;
+                display: inline-block;
+                margin-top: 100px;
                 width: 100%
                 }
 .welcomeParagraph {
                 flex: 2;
-                flex-direction: row;
+                flex-direction: column;
                 padding: 0 30px;
                 text-align: center;
                 margin-top: 45px;
                 font-family: 'Merriweather', serif;
-                font-size: 20px;
+                font-size: 18px;
                 color: navy;
             }
 #cakeThree {
                 flex: 2;
-                flex-direction: row;
+                flex-direction: column;
             }
 .requestCallBackDiv {
                 background-color: lightblue;
@@ -29,7 +29,7 @@ body {
                 height: 60px;
                 align-content: center;
                 text-align: center;
-                font-size: 30px;
+                font-size: 25px;
             }
 .requestCallBackLink {
                 color: palevioletred;
@@ -43,7 +43,7 @@ body {
                 height: 60px;
                 align-content: center;
                 text-align: center;
-                font-size: 25px;
+                font-size: 15px;
                 }
 #viewProducts {
               color: turquoise;
@@ -63,8 +63,9 @@ body {
 .socialMediaLink {
                 position: relative;
                 float: right;
-                left: -10px;
+                left: -5px;
                 }
+
 
 
 /* JQUERY CLASSES */
@@ -88,6 +89,7 @@ body {
 			border-radius: 10px; 
             padding: 0;	
             margin-top: 0;
+            position: relative;
 		}
 
 #logo {
@@ -101,9 +103,9 @@ body {
 			text-decoration: none;
 			flex:.5;
 			height: 30px;
-			padding:10px;
+			padding: 10px;
 			text-align: center;
-			font-size: 1.2em;
+			font-size: 1em;
 			
 	}
 
@@ -242,10 +244,13 @@ nav{
 	flex-direction: row;
     height: 80px;
 				
-	}
+    }
+a {
+    font-size: 20px;
+}
 #logo{
 	 flex: 2;
-	 font-size: 2em;
+	 font-size: 2.5em;
      margin-left: 10px;
      width: 650px;
      text-align: left;
@@ -270,13 +275,28 @@ nav{
 
 }
 
+/***NewLayout***/
 
-/* .container {
-    
-    height: 140px;
-    position: fixed;
-    
-    } */
+.welcomeDiv {
+    display: flex;
+    margin-top: 30px;
+}
+.welcomeParagraph {
+    flex-direction: row;
+    font-size: 20px;
+}
+#cakeThree {
+    flex-direction: row;
+}
+.requestCallBackDiv {
+    font-size: 30px;
+}
+.viewOurPortfolio {
+    font-size: 25px;
+}
+.socialMediaLink {
+    left: -10px;
+}
 
 
 }
