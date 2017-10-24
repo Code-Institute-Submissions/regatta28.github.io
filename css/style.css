@@ -41,32 +41,59 @@
 
 /**CONTAINER**/
 
-  .wrapper
+.wrapper
         {
         position:absolute;
         top: 200px;
         left:0px;
         right:0px;
         bottom:0px;
-         
-             
         } 
 
+            
+ #one {
+      color: red;
+      }
+#two{
+    color: orange;
+    }
+#three{
+      color: #E80C50;
+      }
+#four{
+     color: green;
+     }
+#five {
+       color: blue;
+       }
+            
+#six {
+     color: indigo;
+     }
+#seven {
+        color: violet;
+        }
+#eight{
+       color: red;
+      }
+#nine{
+     color: orange;
+     }
+#ten {
+     color: #E80C50;
+     }         
+            
+#eleven {
+        color: green;
+        }
 
-
-
-
-
-/* BODY */
-
-body {
-      
-    /* margin-bottom: 60px; */
-   
-}
-.container {
-    margin-bottom: 30px;
-}
+#twelve {
+        color: blue;
+        }
+        
+#thirteen{
+        color: indigo;
+        }
 
 
 /***IMAGES***/ 
