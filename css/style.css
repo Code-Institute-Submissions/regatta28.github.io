@@ -53,16 +53,9 @@
         } 
 
 
-img {
-    
-    width: 80%
-    
-}
 
-.wrapper {
-   
-    margin-left: 50px;
-}
+
+
 
 /* BODY */
 
@@ -73,6 +66,13 @@ body {
 }
 .container {
     margin-bottom: 30px;
+}
+
+
+/***IMAGES***/ 
+
+#cakeThree {
+    min-width: 100%;
 }
 
 
