@@ -170,19 +170,19 @@
 /***NAVIGATION***/
 
 nav{
-				display: flex;
-				flex-direction: row;
-				height: 80px;
+	display: flex;
+	flex-direction: row;
+    height: 80px;
 				
-				
-            }
+	}
 #logo{
-				flex: 2;
-				/* text-align: left; */
-				font-size: 2em;
-				margin-left: 10px;
-				
-            }
+	 flex: 2;
+	 font-size: 2em;
+     margin-left: 10px;
+     width: 650px;
+     text-align: left;
+    }
+    
 .container {
     padding-top: 20px;
 }
