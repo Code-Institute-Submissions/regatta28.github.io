@@ -1,3 +1,71 @@
+/***NEWlAYOUT***/
+
+
+body {
+     padding-top: 70px;
+     }
+.welcomeDiv {
+                display: flex;
+                margin-top: 30px;
+                width: 100%
+                }
+.welcomeParagraph {
+                flex: 2;
+                flex-direction: row;
+                padding: 0 30px;
+                text-align: center;
+                margin-top: 45px;
+                font-family: 'Merriweather', serif;
+                font-size: 20px;
+                color: navy;
+            }
+#cakeThree {
+                flex: 2;
+                flex-direction: row;
+            }
+.requestCallBackDiv {
+                background-color: lightblue;
+                width: 100%;
+                height: 60px;
+                align-content: center;
+                text-align: center;
+                font-size: 30px;
+            }
+.requestCallBackLink {
+                color: palevioletred;
+            }
+#secondPart {
+                margin-top: 0;
+            }
+.viewOurPortfolio {
+                background-color: palevioletred;
+                width: 100%;
+                height: 60px;
+                align-content: center;
+                text-align: center;
+                font-size: 25px;
+                }
+#viewProducts {
+              color: turquoise;
+              }
+#thirdPart {
+           margin-top: 0;
+           }
+
+.footers {
+         width: 100%;
+         height: 100px;
+         text-align: center;
+         color: white;
+         background-color:grey;
+         padding-top: 30px;
+        }
+.socialMediaLink {
+                position: relative;
+                float: right;
+                left: -10px;
+                }
+
 
 /* JQUERY CLASSES */
 
