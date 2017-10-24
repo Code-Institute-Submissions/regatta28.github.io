@@ -7,18 +7,69 @@
         <link rel='stylesheet' type='text/css' href='reset.css'>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Damion|Roboto" rel="stylesheet">
         <style>
             body {
                 padding-top: 70px;
             }
+            .welcomeDiv {
+                display: flex;
+                margin-top: 30px;
+                width: 100%
+                
+            }
+            .welcomeParagraph {
+                flex: 2;
+                flex-direction: row;
+                padding: 0 30px;
+                text-align: center;
+                margin-top: 45px;
+                font-family: 'Merriweather', serif;
+                font-size: 20px;
+                color: navy;
+            }
+            #cakeThree {
+                flex: 2;
+                flex-direction: row;
+            }
+            .requestCallBackDiv {
+                background-color: lightblue;
+                width: 100%;
+                height: 60px;
+                align-content: center;
+                text-align: center;
+                font-size: 30px;
+            }
+            .requestCallBackLink {
+                color: palevioletred;
+            }
+            #secondPart {
+                margin-top: 0;
+            }
+            .viewOurPortfolio {
+                background-color: palevioletred;
+                width: 100%;
+                height: 60px;
+                align-content: center;
+                text-align: center;
+                font-size: 25px;
+            }
+            #viewProducts {
+                color: turquoise;
+            }
+            #thirdPart {
+                margin-top: 0;
+            }
+            
+
+           
         </style>
     </head>
     <body>
        <nav class="navbar navbar navbar-fixed-top">
-            <div class="container">
+            
                 <div class="navbar-header">
                     <a id="logo" class="navbar-brand" href="#">Carreyettes' Creations</a>
                 </div>
@@ -29,23 +80,59 @@
                     <li class="navigations"><a href="contact.html">Contact Us</a></li>
                 </ul>
                 
-            </div>
+            
         </nav>
-        <div class="wrapper">
+        <div class="welcomeDiv">
             
             <div class="item active" id="cakeThree">
                 <img src="img/cake3.jpg" alt="Train Cake">
             </div>
+            <p class="welcomeParagraph">Welcome to our HomePage!
+                <br> At Carreyettes' Creations 
+                we cater for all
+                your most important 
+                Celebrations.
+                From Christenings to Weddings
+                and
+                everything inbetween. 
+                <br>We just love to bake and
+                would love to make something 
+                special for you on your special day.
+            </p>
+        </div>
 
-            <div class="item">
-                <img src="img/masterpiece.jpg" alt="Blue Baby Carousel Cake">
-            </div>
+        <div class="requestCallBackDiv">
+            <a href="contact.html" class="requestCallBackLink">Click Here to Request a Callback</a>
+        </div>
 
-            <div class="item">
-                <img src="img/berryCake.jpg" alt="Berry Topped Cake">
-            </div>
-                
+        <div class="welcomeDiv" id="secondPart">
+            <p class="welcomeParagraph">
+                    Carreyettes' Creations provide a reliable and delicious service!
+                    <br>
+                    We can custom make your cakes for food allergies or intolerences.
+                    <br>
+                    We provide to your door service on the day with a freshly baked cake 
+                    of your own design. 
+            </p>
+            <img src="img/masterpiece.jpg" alt="Blue Baby Carousel Cake">
+        </div>
+
+        <div class="viewOurPortfolio">
+            <a href="portfolio.html" id="viewProducts">Click Here to view our Portfolio of Delicious Cakes</a>
+        </div>
+        
+        <div class="welcomeDiv" id="thirdPart">
+            <img src="img/berryCake.jpg" alt="Berry Topped Cake">
+            <p class="welcomeParagraph">Our cakes are made with only the finest produce.
+                <br>
+                We source most of our fresh produce from local farmer markets.
+                Baking is our passion and our customers are very important to us.
+                <br> So please do request a Callback and you won't be dissappointed.
+            </p>
         </div> 
+        <div class="requestCallBackDiv">
+            <a href="contact.html" class="requestCallBackLink">Click Here to Request a Callback</a>
+        </div>
 
         <script src="http://code.jquery.com/jquery.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
