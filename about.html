@@ -10,22 +10,31 @@
         <link href="https://fonts.googleapis.com/css?family=Damion|Roboto" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
         </script>
     </head>
 
     <body>
-        <nav class="navbar navbar navbar-fixed-top">
-            <div class="container background">
+        <nav class="navbar navbar navbar-fixed-top customNav">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="container-fluid background">
                 <div class="navbar-header">
-                    <a id="logo" class="navbar-brand" href="#">Carreyette's Cakes & Creations</a>
+                    <a id="logo" class="navbar-brand" href="#">Carreyette's Creations</a>
                 </div>
-                <ul id="navigation" class="nav navbar-nav navbar-right">
+                <div class="navbar-collapse collapse">
+                    <ul id="navigation" class="nav navbar-nav navbar-right">
                         <li class="navigations"><a href="index.html">Home</a></li>
                         <li class="navigations" class="active"><a href="about.html">About Us</a></li>
                         <li class="navigations"><a href="portfolio.html">Portfolio</a></li>
                         <li class="navigations"><a href="contact.html">Contact Us</a></li>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div id="container">

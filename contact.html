@@ -10,43 +10,38 @@
         <link href="https://fonts.googleapis.com/css?family=Damion|Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar navbar-fixed-top">
-            <div class="container background">
-                <div class="navbar-header">
-                    <a id="logo" class="navbar-brand" href="#">Carreyette's Cakes & Creations</a>
-                </div>
-                <ul id="navigation" class="nav navbar-nav navbar-right">
-                        <li class="navigations"><a href="index.html">Home</a></li>
-                        <li class="navigations"><a href="about.html">About Us</a></li>
-                        <li class="navigations"><a href="portfolio.html">Portfolio</a></li>
-                        <li class="navigations" class="active"><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
+            <nav class="navbar navbar navbar-fixed-top customNav">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="container-fluid background">
+                        <div class="navbar-header">
+                            <a id="logo" class="navbar-brand" href="#">Carreyette's Creations</a>
+                        </div>
+                        <div class="navbar-collapse collapse">
+                            <ul id="navigation" class="nav navbar-nav navbar-right">
+                                <li class="navigations"><a href="index.html">Home</a></li>
+                                <li class="navigations" class="active"><a href="about.html">About Us</a></li>
+                                <li class="navigations"><a href="portfolio.html">Portfolio</a></li>
+                                <li class="navigations"><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
         <div class='container'>
-            <div class="contact" id="contactUs">
-                <p>Contact us at 09090909 <br> or <br> Fill in the form <br>and<br> we will contact you</p>
-            </div>
-            <div id="container" class="contact">
-                <form>
-                <h1>Contact Us</h1>
-                <fieldset class="input-boxes">
-                    <label for="fullname" class="field">Full Name:<span class="asterix"> *</span></label>
-                    <input id="fullname" autocomplete="on" type="text" name="fullname" required="" placeholder="Enter your full name"/>
-                    <label for="email" class="field">Email:<span class="asterix">*</span></label>
-                    <input id="email" autocomplete="on" type="email" name="email" required="" autofocus placeholder="Enter your email"/>
-                    <label for="telephone" class="field">Telephone:<span class="asterix">*</span></label>
-                    <input id="telephone" type="tel" name="telephone" placeholder="08* *** ****"/>
-                    <label for="submit" class="field"></label>
-                    <input id="submit" type="submit" value="Submit" onclick="showAlert();"/>
-                </form>
-            </div>
+
         </div>
         
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
         </script>
+                <script src="http://code.jquery.com/jquery.min.js"></script>
+                <script src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/contact.js"></script>
     </body>
   

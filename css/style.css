@@ -1,13 +1,27 @@
 .background {
-    background-color: palevioletred;
+    background-color: white;
 }
 #logo{
-    color: white;
-    font-size: 25px;
+    color:purple;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    padding: 20px;
 }
 li a {
-    color: white;
+    color: rgb(247, 9, 80);
 }
-.navba{
-    margin-bottom: 50px;
+.mainDiv {
+    margin-top: 100px;
+}
+.customNav {
+    height: 100px;
+}
+button.navbar-toggle .icon-bar {
+    background-color: navy;
+}
+
+@media screen and (max-width: 800px) {
+    #logo {
+        font-size: 20px;
+    }
 }
