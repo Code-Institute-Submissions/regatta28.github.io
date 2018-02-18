@@ -12,29 +12,134 @@ li a {
 }
 .mainDiv {
     margin-top: 100px;
+    background-color: orange;
+    height: 700px;
 }
 .customNav {
     height: 100px;
+    
 }
 button.navbar-toggle .icon-bar {
     background-color: navy;
 }
 #body {
-    height: 600px;
+    height: 500px;
+    background-color: lightgrey;
 }
 .navbar .navbar .navbar-fixed-top .customNav {
     background-color: lightskyblue;
 }
+#container {
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.responsive {
+    height: 300px;
+}
+.images {
+    background-color: lightgrey;
+    height: 300px;
+    width: 30%;
+    margin-left: 20px;
+}
+.images img {
+    height: 250px;
+    border-radius: 50%;
+}
+.largeFont {
+    font-size: 20px;
+}
+.smallFont {
+    font-size: 15px;
+}
+img {
+    filter: saturate(150%);
+    text-align: center;
+}
+#cakeGallery {
+    text-align: center;
+}
+#footer {
+    width: 100%;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 25px;
+}
+#sideDiv {
+    text-align: center;
+}
 
 
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 767px) {
     #logo {
-        font-size: 25px;
+        font-size: 18px;
+        margin-bottom: 50px;
     }
+
+    #container {
+        height: 700px;
+        flex-direction: column;
+    }
+    .images {
+        width: 70%;
+        margin: auto;
+        height: 300px;
+        margin-bottom: 50px;
+        
+    }
+    .images img {
+        margin-bottom: 50px;
+    }
+    .mainDiv {
+        height: 300px;
+    }
+    #footer {
+        margin-top: 300px;
+        font-size: 15px;
+    }
+    
+    
 }
 @media screen and (min-width: 1024px) {
     #logo {
-        font-size: 45px;
+        font-size: 40px;
     }
+    #container {
+        height: 450px;
+        flex-direction: row;
+    }
+    .images {
+        height: 450px;
+    }
+    .images img {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 900px) {
+    #body {
+        height: 600px;
+    }
+    .mainDiv {
+        height: 1000px;
+    }
+    .images {
+        margin-top: 150px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 800px) {
+
+
+    #cakeGallery {
+        margin-bottom: 50px;
+    }  
+    
+}
+    
 }
