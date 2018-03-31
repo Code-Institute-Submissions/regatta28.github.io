@@ -13,44 +13,69 @@
         <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     </head>
     <body>
-            <nav class="navbar navbar navbar-fixed-top customNav">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="container-fluid background">
-                        <div class="navbar-header">
-                            <a id="logo" class="navbar-brand" href="#">Carreyette's Cake's & Creations</a>
-                        </div>
-                        <div class="navbar-collapse collapse">
-                            <ul id="navigation" class="nav navbar-nav navbar-right">
-                                <li class="navigations"><a href="index.html">Home</a></li>
-                                <li class="navigations" class="active"><a href="about.html">About Us</a></li>
-                                <li class="navigations"><a href="portfolio.html">Portfolio</a></li>
-                                <li class="navigations"><a href="contact.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-                <div id="container">
-                        <div id="body"></div>
-                        <div id="footer">
-                                <span>&copyCarreyettes'Creations</span><br>
-                                <span class="socialMediaLink">Follow us on
-                                    <a href="https://www.facebook.com/carreyettescreations/">
-                                        <img src="img/facebook-wrap.png">
-                                    </a>
-                                </span>
-                        </div>
-                    </div>
+        <nav class="navbar navbar navbar-fixed-top bg-light">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="container-fluid background">
+                <div class="navbar-header">
+                    <a id="logo" class="navbar-brand" href="#">Carreyette's Cake's & Creations</a>
                 </div>
-        
+                <div class="navbar-collapse collapse">
+                    <ul id="navigation" class="nav navbar-nav navbar-right">
+                        <li class="navigations"><a href="index.html">Home</a></li>
+                        <li class="navigations" class="active"><a href="about.html">About Us</a></li>
+                        <li class="navigations"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="navigations"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container contact row">
+            <div class='column'>
+                <form>
+                    <h1>Contact Us</h1>
+                    <fieldset class="input-boxes">
+                        <div>
+                        <label for="fullname" class="field">Full Name:<span class="asterix"> *</span></label>
+                        <input id="fullname" autocomplete="on" type="text" name="fullname" required="" placeholder="Enter your full name"/>
+                        </div>
+                        <div>
+                        <label for="email" class="field">Email:<span class="asterix">*</span></label>
+                        <input id="email" autocomplete="on" type="email" name="email" required="" autofocus placeholder="Enter your email"/>
+                        </div>
+                        <div>
+                        <label for="telephone" class="field">Telephone:<span class="asterix">*</span></label>
+                        <input id="telephone" type="tel" name="telephone" placeholder="08* *** ****"/>
+                        </div>
+                        <label for="submit" class="field"></label>
+                        <input id="submit" type="submit" value="Submit" onclick="showAlert();"/>
+                </form>
+            </div>
+            <div class='column'>
+                    <h4>Come Visit Us at Arus Na Gael Outdoor Market Saturdays 10 - 6 pm</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.0416377097!2d-9.057440400000043!3d53.2708736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96fbad50d133%3A0x17e922d9137a3cd7!2s%C3%81ras+na+nGael!5e0!3m2!1sen!2sie!4v1520897599570" 
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+                      
+                </div>
+                <footer id="footer">
+                    <span>&copyCarreyettes'Creations</span><br>
+                    <span class="socialMediaLink">Follow us on
+                        <a href="https://www.facebook.com/carreyettescreations/">
+                            <img src="img/facebook-wrap.png">
+                        </a>
+                    </span>
+                </footer>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
         </script>
-                <script src="http://code.jquery.com/jquery.min.js"></script>
-                <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
     </body>
   
