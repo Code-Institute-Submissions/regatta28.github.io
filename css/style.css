@@ -54,3 +54,11 @@ ul li a {
     font-size: 30px;
     color: black;
 }
+
+/* Box Row */
+.row {
+    margin: auto;
+}
+.row img {
+    border: white solid 10px;
+}
