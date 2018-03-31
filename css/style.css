@@ -2,8 +2,7 @@
 
 .container {
     padding-top: 100px;
-    width: 80%;
-    overflow: hidden;
+    width: 100%;
 }
 
 /* NAVBAR */
@@ -11,7 +10,47 @@
 .navbar {
     padding-top: 30px;
     color: #ffffff;
-    border-bottom: pink 3px solid;
-    min-height: 70px;
+    min-height: 50px;
     margin-bottom: 20px;
+    
+}
+#logo {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    color: rgb(197, 9, 197);
+    padding: 10px;
+}
+ul li a {
+    color: rgb(197, 9, 197);
+    font-size: 20px;
+}
+.largeFont {
+    font-size: 30px;
+}
+.navbar .navbar-toggle .icon-bar {
+    background-color: black;
+}
+/* jumbotron */
+
+#jumboDiv {
+    background: url('../img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+#welcomeHeader {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 60px;
+    color: white;
+}
+#welcomeParagraph {
+    text-align: center;
+    padding-top:160px;
+    font-size: 30px;
+    color: black;
 }
