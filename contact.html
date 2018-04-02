@@ -34,42 +34,41 @@
                 </div>
             </div>
         </nav>
-        <div class="container contact row">
-            <div class='column'>
+        <div class="container col-sm-12" id="contactPage">
+            <div class="col-sm-12" id="contactForm">
                 <form>
-                    <h1>Contact Us</h1>
+                    <h2>Contact Form</h2>
+                    <p>Contact us today and we will be in contact very shortly</p>
                     <fieldset class="input-boxes">
                         <div>
-                        <label for="fullname" class="field">Full Name:<span class="asterix"> *</span></label>
+                        <label for="fullname" class="field">Full Name:</label>
                         <input id="fullname" autocomplete="on" type="text" name="fullname" required="" placeholder="Enter your full name"/>
                         </div>
                         <div>
-                        <label for="email" class="field">Email:<span class="asterix">*</span></label>
+                        <label for="email" class="field">Email:</label>
                         <input id="email" autocomplete="on" type="email" name="email" required="" autofocus placeholder="Enter your email"/>
                         </div>
                         <div>
-                        <label for="telephone" class="field">Telephone:<span class="asterix">*</span></label>
+                        <label for="telephone" class="field">Telephone:</label>
                         <input id="telephone" type="tel" name="telephone" placeholder="08* *** ****"/>
                         </div>
                         <label for="submit" class="field"></label>
                         <input id="submit" type="submit" value="Submit" onclick="showAlert();"/>
                 </form>
             </div>
-            <div class='column'>
+            <div id="map">
                     <h4>Come Visit Us at Arus Na Gael Outdoor Market Saturdays 10 - 6 pm</h4>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2386.0416377097!2d-9.057440400000043!3d53.2708736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b96fbad50d133%3A0x17e922d9137a3cd7!2s%C3%81ras+na+nGael!5e0!3m2!1sen!2sie!4v1520897599570" 
                     width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
-                      
-                </div>
-                <footer id="footer">
-                    <span>&copyCarreyettes'Creations | Follow us on
-                        <a href="https://www.facebook.com/carreyettescreations/">
-                            <img src="img/facebook-wrap.png">
-                        </a>
-                    </span>
-                </footer>
+        <footer id="footer">
+            <span>&copyCarreyettes'Creations | Follow us on
+                <a href="https://www.facebook.com/carreyettescreations/">
+                    <img src="img/facebook-wrap.png">
+                </a>
+            </span>
+        </footer>
         <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
         </script>
