@@ -73,6 +73,9 @@ ul li a {
     text-align: center;
     color: purple;
 }
+.row img {
+    border-radius: 50%;
+}
 
 /* FOOTER */
 html {
@@ -151,18 +154,22 @@ html {
 /* contact page and form */
 
 #contactForm {
-    border: solid pink 2px;
-    background-color: lightgray;
+    border: solid grey 5px;
+    background-color: lightgrey;
     width: 40%;
     float: right;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #contactForm h2 {
+    color: black;
     font-size: 30px;
+    padding-bottom: 25px;
 }
 #contactForm form {
-    padding: 20px;
+    color: black;
+    padding: 30px;
+    display: block;
 }
 #map {
     width: 60%;
@@ -182,20 +189,54 @@ input {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
+/* javascript classes */
+
+.navHighlight {
+    font-size: 30px;
+    
+}
+.navColor {
+    color: deeppink !important;
+    background-color: white !important;
+}
+.logo {
+    border: black solid 2px;
+}
+
+
+
 /* Responsive design */
 
 @media(max-width:768px) {
+    .container {
+        display: block;
+        margin-top: 5px;;
+        padding-top: 5px;
+    }
+
     .container #main-col,
     .container #image
-    .container #map{
-
+    .container #map
+    .container #contactForm{
+        display: block;
         width: 100%;
     }
+
+
+    #contactForm,
+    #map {
+        width: 100%;
+    }
+    .container #image img{
+        margin: auto;
+        height: 300px;
+    }
     #portfolio img {
-        padding-left: 50px;
+        width: 100%;
     }
     #logo {
-        font-size: 20px;
+        font-size: 21px;
     }
 
 }

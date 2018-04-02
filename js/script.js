@@ -1,10 +1,17 @@
 $(document).ready(function() {
-    $(".navigations").mouseenter(function(){
-        $(this).addClass("largeFont");
+    $("ul li a").mouseenter(function(){
+        $(this).addClass("navHighlight");
     });
-    $(".navigations").mouseleave(function(){
-        $(this).removeClass("largeFont");
+    $("ul li a").mouseleave(function(){
+        $(this).removeClass("navHighlight");
     });
-
+    $("ul li a").mouseenter(function(){
+      $(this).addClass("navColor");
+    });
+    $("ul li a").mouseleave(function(){
+      $(this).removeClass("navColor");
+    });
+    $("#welcomeHeader").hide().fadeIn(2000);
+    $("#welcomeParagraph").hide().fadeIn(4000);
 });
 
