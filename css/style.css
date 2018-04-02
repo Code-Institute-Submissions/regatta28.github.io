@@ -3,6 +3,8 @@
 .container {
     padding-top: 100px;
     width: 100%;
+    margin-bottom: 10px;
+ 
 }
 
 /* NAVBAR */
@@ -58,7 +60,50 @@ ul li a {
 /* Box Row */
 .row {
     margin: auto;
+    margin-bottom: 20px;
+    height:500px;
+    width: 100%;
 }
 .row img {
+    margin-top: 20px;
     border: white solid 10px;
+}
+.row h4,
+.row p {
+    text-align: center;
+    color: purple;
+}
+
+/* FOOTER */
+html {
+    position:relative;
+}
+
+#footer {
+    text-align: center;
+    background-color: lightgray;
+    margin-top: 50px;
+    height: 50px;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top: 10px;
+}
+#facebook {
+    padding-bottom: 20px;
+}
+
+/* Quote Button */
+
+#quoteButton {
+    padding: 30px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(236, 70, 100);
+}
+#quoteButton button {
+    color:purple;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
 }
